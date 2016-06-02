@@ -1,0 +1,147 @@
+BODY { 
+ color: black;
+ background-color: white;
+ font-size:90%;
+ font-family: arial, sans-serif
+}
+EM { 
+    color: #4477ff;
+    font-family: arial, sans-serif
+    text-decoration: none;
+    font-weight: bold; 
+}
+STRONG { 
+    color: #4477ff;
+    font-family: arial, sans-serif
+    text-decoration: none;
+    font-weight: bold; 
+}
+H1, H2, H3, H4, H5, H6 { 
+ font-family: arial, sans-serif
+}
+
+ADDRESS { 
+ font-family: arial, sans-serif
+ font-size: 75%
+}
+
+pre,
+code,
+kbd,
+samp,
+tt{
+  font-family:monospace,monospace;
+  font-size:1em;
+}
+
+A:link { 
+ color: #c63139;
+    font-weight: bold; 
+ text-decoration: underline;
+ background-color: transparent
+}
+A:visited { 
+ color: #a02020;
+ background-color: transparent;
+ text-decoration: underline;
+    font-weight: bold; 
+}
+A:hover { 
+ color: #ff4f4f;
+    font-weight: bold; 
+ background-color: transparent
+ text-decoration: underline;
+}
+A:active { 
+ color: #ccffcc;
+ background-color: transparent;
+    font-weight: bold; 
+ text-decoration: none
+}
+.barlink { 
+ font-family: arial, sans-serif
+ font-size: 13px;
+ font-weight: bold; 
+ color: white; 
+ background-color: #666600;
+ text-decoration: none
+}
+.conf:link { 
+ color: #cc88cc;
+}
+.conf:visited { 
+ color: #993399;
+}
+.conf:hover { 
+ color: #ffccff;
+}
+.navlink { 
+ font-family: arial, sans-serif
+ font-size: 13px;
+ font-weight: bold; 
+ text-decoration: none 
+}
+.navlinksm { 
+ font-family: arial, sans-serif
+ font-size: 11px;
+ font-weight: bold; 
+ text-decoration: none 
+}
+.navlinkbig { 
+ font-family: arial, sans-serif;
+ font-size: 15px;
+ font-weight: bold; 
+ text-decoration: none 
+}
+H1 { 
+ font-size: 1.5em;
+ font-weight: bold; 
+ text-decoration: none;
+}
+
+H2 { 
+ font-size: 1.3em;
+ font-weight: bold; 
+ text-decoration: none;
+}
+
+H3 { 
+ font-size: 1.2em;
+ font-weight: normal; 
+ text-decoration: none;
+}
+
+.iDesc {
+ font-family: arial, sans-serif;
+ font-size: 12px;
+}
+.h {
+ font-family:   helvetica,arial,sans-serif;
+ font-size: 18px;
+ font-weight: bold;
+ text-decoration: none;
+ color: #330000;
+ background-color: white;
+}
+.button {
+ color: #000000;
+ background-color: #cccc99;
+ font-weight: bold;
+}
+.l {
+    background: #ffc629;
+    vertical-align: baseline;
+    text-align: right; 
+    width: 50%;
+    padding: 3px 6px;
+}
+.r {
+    vertical-align: baseline;
+    width: 50%;
+    padding: 3px 6px;
+}
+*#col1         { 
+                text-align: right; 
+                textalign: right; 
+                background: #ffc629; }
+table          { border-collapse: collapse; }
