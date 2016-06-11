@@ -3338,18 +3338,3 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
-
-/*B&W*/
-.bw {
-  -webkit-transition: all 1.5s ease;
-     -moz-transition: all 1.5s ease;
-       -o-transition: all 1.5s ease;
-      -ms-transition: all 1.5s ease;
-          transition: all 1.5s ease;
-
-    -webkit-filter:saturate(1);
-}
-
-.bw:hover {
-  -webkit-filter: saturate(2) sepia(0.5);
-} 
