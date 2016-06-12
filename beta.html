@@ -4,18 +4,48 @@
    <meta name="description" content="Aditya Harsh is a student at University of Petroleum and Energy Studies, Dehradun majoring in Computer Science.">
    <meta name="keywords" content="Aditya, Harsh, Aditya Harsh, apexpredator18, github, Petroleum, Computer Science,University of Petroleum and Energy Studies, adityasiwan, aharsh">
    <meta name="author" content="Aditya Harsh">
+   <meta charset="utf-8">
    <link rel="canonical" href="https://adityasiwan.github.io">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="beta/alert.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="beta/styles.css">
   <link rel="stylesheet" type="text/css" href="responsive.css">
   <link href="animate.css" rel ="stylesheet">
+  <SCRIPT LANGUAGE="JavaScript">
+	function popupWin() 
+	{
+		text =  "<html>\n<head>\n<title>Pop Window</title>\n<body>\n";
+		text += "<center>\n<br>";
+		text += "<a href='http://adityasiwan.github.io' target='_blank'><h3>Warning:Beta version</h3><h4>Click to go back to main page</h4></a>";
+		text += "</center>\n</body>\n</html>\n";
+		setTimeout('windowProp(text)', 10);
+	}
+	function windowProp(text) 
+	{
+		newWindow = window.open('','newWin','width=300,height=130');
+		newWindow.document.write(text);
+		setTimeout('closeWin(newWindow)', 5000);
+	}
+	function closeWin(newWindow) 
+	{
+		newWindow.close();
+	}
+</script>
   
 </head>
 
-<body>
+<body onLoad="popupWin()">
+
+<div class="container">
+  <div class="alert alert-warning">
+    <h2>Warning!</h2><p>This is a beta version and is meant for development.</p	>
+  </div>
+</div>
 	<div id="w" itemscope itemtype="http://adityasiwan.github.io">
 		<header class="clearfix">
 			<div id="info">			
@@ -95,13 +125,10 @@ Developed an android application for ordering coffee through intent object on GM
 			</section>
 		</section>
 		</div>
-<div align="left">
-<p><a href="http://adityasiwan.github.io/beta.html" target="_blank">Beta Version</a></p>
-</div>
 <div align="right">
 <p>Last Updated: 06/12/16, 05:17:52PM</p>
 </div>
 
 	</div>
 </body>
-</html>
+</html> 

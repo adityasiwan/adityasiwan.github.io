@@ -1,12 +1,11 @@
 * { margin: 0; padding: 0; }
 html { height: 101%; }
-body { background: #f2f2f2 url('images/bg-tile.png'); font-size: 62.5%; padding-bottom: 65px;}
+body { background: #f2f2f2 url('bg-tile1.png'); font-size: 62.5%; padding-bottom: 65px; background-size: 100% 300%;background-repeat: no-repeat;}
 
 h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545; font-size: 3.6em; margin-bottom: 6px; }
 h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #484848; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
 h3 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #777; font-weight: normal; font-size: 1.8em; margin-bottom: 10px; }
 h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #656565; font-weight: bold; font-size: 1.75em; margin-bottom: 4px; }
-
 p { font-family: "Balthazar", "Droid Serif", serif; color: #565656; font-size: 1.8em; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
 small { font-family: "Balthazar", "Droid Serif", serif; color: #656565; font-size: 1.6em; display: block; margin-bottom: 6px; }
 ul { display: block; list-style: none; }
