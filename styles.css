@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; }
 html { height: 101%; }
-body { background: #f2f2f2 url('images/bg-tile.png'); font-size: 62.5%; padding-bottom: 65px;}
+body { background: #f2f2f2 url('images/bg-tile1.png');  font-size: 62.5%; padding-bottom: 65px; background-size: 100% 300%;background-repeat: repeat;}
 
 h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #454545; font-size: 3.6em; margin-bottom: 6px; }
 h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #484848; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
