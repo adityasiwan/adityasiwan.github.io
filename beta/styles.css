@@ -9,7 +9,7 @@ h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #656565; fo
 p { font-family: "Balthazar", "Droid Serif", serif; color: #565656; font-size: 1.8em; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
 small { font-family: "Balthazar", "Droid Serif", serif; color: #656565; font-size: 1.6em; display: block; margin-bottom: 6px; }
 ul { display: block; list-style: none; }
-ul li { padding-left: 45px; list-style-type: none; vertical-align: top; background: url('images/bullet.png') 23px 2px no-repeat; margin-bottom: 5px; font-family: "Balthazar", "Droid Serif", serif; color: #666; font-size: 1.6em; line-height: 1.7em; }
+ul li { padding-left: 45px; list-style-type: none; vertical-align: top; background: url('bullet.png') 23px 2px no-repeat; margin-bottom: 5px; font-family: "Balthazar", "Droid Serif", serif; color: #666; font-size: 1.6em; line-height: 1.7em; }
 
 img { border: 0; max-width: 100%; }
 
