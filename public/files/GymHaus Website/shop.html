@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop GymHaus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- <header> -->
+    <div class="notice">
+        There may be delays in fulfilment of orders due to COVID-19.
+    </div>
+    <div class="nav-container" id="navbar">
+        <div class="wrapper">
+            <nav>
+                <div class="nav-items">
+                    <div class="left">
+                        <a href="#" id="Shop">Shop</a>
+                        <a href="#" id="About">About</a>
+                    </div>
+
+                    <a href="gymhaus.html" class="nav-logo">
+                        <span class="nav-logo-big">GymHaus</span>
+                        <span class="nav-logo-small">Gym<br>Haus</span>
+                    </a>
+
+                    <div class="right">
+                        <a href="#" id="Contact">Contact</a>
+                        <div class="sign-in">
+                            <a href="https://gymhaus.company.site/signIn?returnUrl=cart"><img src="images/exports/SignIn.png" alt="Sign-In" style="width: 1.75em"></a>
+                        </div>
+                        <div class="shopping-bag">
+                            <a href="https://gymhaus.company.site/cart"><img src="images/exports/ShoppingBag.png" alt="Shopping Bag" style="width: 1.5em"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="nav-container-mobile" id="navbar2">
+        <nav>
+            <div class="nav-items">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()" style="background-image: url('images/exports/menu.png')">
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#" id="Shop">Shop</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                        <a href="https://gymhaus.company.site/signIn?returnUrl=cart"><img src="images/exports/SignIn.png" alt="Sign-In" style="width: 20px"> Sign-In</a>
+                    </div>
+                </div>
+
+
+                <a href="gymhaus.html">
+                    <span class="nav-logo-small">Gym<br>Haus</span>
+                </a>
+
+                <div class="shopping-bag">
+                    <a href="https://gymhaus.company.site/cart"><img src="images/exports/ShoppingBag.png" alt="Shopping Bag" style="width: 30px"></a>
+                </div>
+
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="covid-banner">
+            50% of proceed donated to the Covid-19 Solidarity Fund
+        </div>
+
+        <div class="mobile-slideshow">
+            <div id="mobileCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500" data-pause="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#mobileCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mobileCarousel" data-slide-to="1"></li>
+                    <li data-target="#mobileCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One -->
+                    <div class="carousel-item active" style="background-image: url('images/exports/slideshowBackground1.png')">
+
+                    </div>
+                    <!-- Slide Two -->
+                    <div class="carousel-item" style="background-image: url('images/exports/slideshowBackground2.png')">
+                    </div>
+                    <!-- Slide Three -->
+                    <div class="carousel-item" style="background-image: url('images/exports/slideshowBackground3.png')">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#mobileCarousel" role="button" data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span> -->
+                </a>
+                <a class="carousel-control-next" href="#mobileCarousel" role="button" data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span> -->
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="options">
+
+            <a href="#t-shirts" class="t-shirts-option">
+                <img src="images/exports/TShirts.png" alt="T-Shirts" class="image" style="width:100%">
+                <h1>T-Shirts</h1>
+            </a>
+            <a href="#hoodies" class="hoodies-option">
+                <img src="images/exports/Hoodies.png" alt="Hoodies" class="image" style="width:100%">
+                <h1>Hoodies</h1>
+            </a>
+
+            <a href="#phone-cases" class="phone-cases-option">
+                <img src="images/exports/PhoneCases.png" alt="Phone Cases" class="image" style="width:100%">
+                <h1>Phone Cases</h1>
+            </a>
+        </div>
+
+
+        <!-- </header> -->
+
+        <div class="t-shirts">
+            <a name="t-shirts" id="t-shirts"></a>
+            <div class="t-shirt-banner">
+                T-Shirts
+            </div>
+            <p>
+                Let people know how you feel about Coronavirus and advocate social distancing practices with these cottony soft t-shirts.
+            </p>
+            <div class="t-shirt-grid">
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/I-Survived-Coronavirus-2020-p183262866" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/WhiteSurvived.png" id="white" class="shirt" alt="White I Survived Coronavirus 2020">
+                        <img src="images/exports/BlackSurvived.png" id="black" class="shirt" alt="Black I Survived Coronavirus 2020">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button-on">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/I-Survived-Coronavirus-2020-p183262866">
+                        <p1>
+                            I Survived Coronavirus 2020
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/Anti-Social-Social-Distancing-Club-p201235546" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/BlackAntiSocial.png" id="black" class="shirt" alt="Black AntiSocial Social Distancing Club">
+                        <img src="images/exports/WhiteAntiSocial.png" id="white" class="shirt" alt="White AntiSocial Social Distancing Club">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white-selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button-on">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/Anti-Social-Social-Distancing-Club-p201235546">
+                        <p1>
+                            Anti Social Social Distancing Club
+                        </p1>
+                        <p2>
+                            $19.99
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/Keep-Apart-p185335310" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/KeepApart.png" id="white" class="shirt" alt="Keep Apart">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button-on">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/Keep-Apart-p185335310">
+                        <p1>
+                            Keep Apart
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/Whack-Times-T-Shirt-p183264528" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/BlackWhackTimes.png" id="black" class="shirt" alt="Black Whack Times">
+                        <img src="images/exports/WhiteWhackTimes.png" id="white" class="shirt" alt="White Whack Times">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button-on">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/Whack-Times-T-Shirt-p183264528">
+                        <p1>
+                            Whack Times
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/The-Fight-p183265999" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/BlackTheFight.png" id="black" class="shirt" alt="Black The Fight">
+                        <img src="images/exports/WhiteTheFight.png" id="white" class="shirt" alt="White The Fight">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button-on">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/The-Fight-p183265999">
+                        <p1>
+                            The Fight
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/Wash-Hands-p184557050" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/WashHands.png" id="white" class="shirt" alt="Wash Hands">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button-on">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                        </div>
+
+                    </div>
+                    <a href="https://gymhaus.company.site/Wash-Hands-p184557050">
+                        <p1>
+                            Wash Hands
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/Bummer-p183264996" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/BlackBummer.png" id="black" class="shirt" alt="Black Bummer">
+                        <img src="images/exports/WhiteBummer.png" id="white" class="shirt" alt="White Bummer">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button-on">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/Bummer-p183264996">
+                        <p1>
+                            Bummer
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="t-shirt">
+                    <a href="https://gymhaus.company.site/Whack-Times-T-Shirt-p183264528" class="t-shirt-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/CoverMouth.png" id="white" class="shirt" alt="Cover Mouth">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button-on">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/Whack-Times-T-Shirt-p183264528">
+                        <p1>
+                            Cover Mouth
+                        </p1>
+                        <p2>
+                            $14
+                        </p2>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="hoodies">
+            <a name="hoodies" id="hoodies"></a>
+            <div class="hoodie-banner">
+                Hoodies
+            </div>
+            <p>
+                Make a statement about Coronavirus with these cozy hoodies perfect for quarantine lounging.
+            </p>
+            <div class="hoodie-grid">
+                <div class="hoodie">
+                    <a href="https://gymhaus.company.site/I-Survived-Coronavirus-2020-Hoodie-p183269435" class="hoodie-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/WhiteSurvivedHoodie.png" id="white" class="hoodie1" alt="White I Survived Coronavirus 2020 Hoodie">
+                        <img src="images/exports/BlackSurvivedHoodie.png" id="black" class="hoodie1" alt="Black I Survived Coronavirus 2020 Hoodie">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button-on">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/I-Survived-Coronavirus-2020-Hoodie-p183269435">
+                        <p1>
+                            I Survived Coronavirus 2020 Hoodie
+                        </p1>
+                        <p2>
+                            $32
+                        </p2>
+                    </a>
+                </div>
+
+                <div class="hoodie">
+                    <a href="https://gymhaus.company.site/Anti-Social-Social-Distancing-Club-Hoodie-p183270323" class="hoodie-picture">
+                        <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                        <img src="images/exports/BlackAntiSocialHoodie.png" id="black" class="hoodie1" alt="Black AntiSocial Social Distancing Club Hoodie">
+                        <img src="images/exports/WhiteAntiSocialHoodie.png" id="white" class="hoodie1" alt="White AntiSocial Social Distancing Club Hoodie">
+                    </a>
+                    <div class="color-selection">
+                        <div class="white-button">
+                            <img src="images/exports/WhiteOn.png" id=WhiteOn alt="white-selected">
+                            <img src="images/exports/White.png" id=WhiteOff alt="white">
+                        </div>
+                        <div class="black-button-on">
+                            <img src="images/exports/BlackOn.png" id=BlackOn alt="black selected">
+                            <img src="images/exports/Black.png" id=BlackOff alt="black">
+                        </div>
+                    </div>
+                    <a href="https://gymhaus.company.site/Anti-Social-Social-Distancing-Club-Hoodie-p183270323">
+                        <p1>
+                            Anti Social Social Distancing Club Hoodie
+                        </p1>
+                        <p2>
+                            $32
+                        </p2>
+                    </a>
+                </div>
+            </div>
+            <div class="phone-cases">
+                <a name="phone-cases" id="phone-cases"></a>
+                <div class="phone-case-banner">
+                    Phone Cases
+                </div>
+                <p>
+                    Hope you are all staying healthy. Keep your phone healthy too and protect it with a phone case relevent to the times. </p>
+                <div class="phone-case-grid">
+                    <div class="phone-case">
+                        <a href="https://gymhaus.company.site/Whack-Times-p183478242" class="phone-case-picture">
+                            <img src="images/exports/ClothingBackground2.png" class="clothing-bg" alt="Background">
+                            <img src="images/exports/WhackTimesPhoneCase.png" id="phone-case" class="phone-case1" alt="Whack Times Phone Case">
+                        </a>
+                        <a href="https://gymhaus.company.site/Whack-Times-p183478242">
+                            <p1>
+                                Whack Times Phone Case
+                            </p1>
+                            <p2>
+                                $18
+                            </p2>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <footer>
+            <div class="footer-contents">
+                <div class="social-media">
+                    <a href="https://www.facebook.com/GymHausShop/"><img src="images/exports/facebook.png" id="facebook" alt="facebook"></a>
+                    <a href="https://www.instagram.com/gymhausco/"><img src="images/exports/instagram.png" id="instagram" alt="instagram"></a>
+                    <a href="mailto:gymhaus2020@gmail.com"><img src="images/exports/email.png" id="email" alt="email"></a>
+                </div>
+                <div class="copyright">
+                    © GymHaus
+                </div>
+                <div class="policy">
+                    <a href="#https://gymhaus.company.site/pages/returns">Return Policy</a>
+                    <a href="#https://gymhaus.company.site/pages/privacy-policy">Privacy Policy</a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="zenscroll-latest/zenscroll.js"></script>
+
+</body>
+
+</html>
