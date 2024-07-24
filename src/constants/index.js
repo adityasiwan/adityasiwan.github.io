@@ -1,331 +1,310 @@
 import {
-  web,
-  reactNative,
-  uiux,
-  fullStack,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  materialui,
-  python,
-  cpp,
-  java,
-  nodejs,
-  mongodb,
-  github,
-  figma,
-  creativecloud,
-  docker,
-  csm,
-  mesabiotech,
-  thermofisher,
-  ethicable,
-  tinytales,
-  gymhaus,
-  kingpin,
-  scrunchies4sma,
-  threejs,
-} from "../assets";
-
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Full Stack Software Engineer",
-    icon: fullStack,
-  },
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: reactNative,
-  },
-  {
-    title: "UI/UX Designer",
-    icon: uiux,
-  },
-];
-
-const technologies = [
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "C++",
-    icon: cpp,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Material UI",
-    icon: materialui,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-  {
-    name: "Adobe Creative Cloud",
-    icon: creativecloud,
-  },
-  // {
-  //     name: "GitHub",
-  //     icon: github,
-  // },
-  // {
-  //     name: "Blender",
-  //     icon: docker,
-  // },
-];
-
-const experiences = [
-  {
-    title: "Engineer (Frontend and UI/UX)",
-    company_name: "Ethicable",
-    icon: ethicable,
-    iconBg: "#FFF8FC",
-    date: "August 2023 - Present",
-    points: [
-      "Executed the majority of frontend/ui/ux decisions in a fast-paced startup environment",
-      "Designed and coded the React.js portion of ethicable.ai and trustwrite.ai",
-      "Rebranded color scheme and logo to better reflect company values and mission",
-      "Worked on backend integration with GraphQL, Redis Pub/Sub, and AWS SQS and SNS",
-    ],
-  },
-  {
-    title: "Software Engineer II",
-    company_name: "Thermo Fisher Scientific",
-    icon: thermofisher,
-    iconBg: "#FFF8FC",
-    date: "July 2022 - June 2023",
-    points: [
-      "Collaborated cross-functionally to accelerate feature completion of an embedded systems medical PCR testing device by implementing user interface and new functionalities (such as exporting logs to a USB, scanning/saving barcode data, user authentication and persistent lockout if auth fails 3x)",
-      "Troubleshooted/fixed bugs in firmware with hierarchical state machines & asynchronous processing",
-      "Integrated and improved the device target line detection algorithm using smoothing, color contrast, and derivatives",
-    ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "Thermo Fisher Scientific",
-    icon: thermofisher,
-    iconBg: "#FFF8FC",
-    date: "Jan 2021 - August 2021",
-    points: [
-      "Built React Native mobile app that aids with recording mass PCR testing by scanning patient infobarcodes, takes pictures of result strips, and uploads to an AWS Cloud database",
-      "Enhanced website used to view test results with company branding, test strip image viewing ability, and interactive customer stat graphs with various React APIs",
-      "Created Power BI reports for marketing spends",
-    ],
-  },
-  {
-    title: "Software and User Interface Intern",
-    company_name: "Mesa Biotech",
-    icon: mesabiotech,
-    iconBg: "#FFF8FC",
-    date: "June 2020 - August 2021",
-    points: [
-      "Worked on the UI design and firmware development of touch screen PCR testing device",
-      "Prototyped UI with Adobe XD and implemented with STemWin gui graphics library",
-      "Developed the front-end and back-end of new features such a maintenance user with unique hashed passwords retrievable with an external app and a test result print functionality",
-      "Implemented unit-testing with VS C++ NativeUnit Test framework",
-      "Updated software requirements documentation",
-    ],
-  },
-  {
-    title: "CS Mentor",
-    company_name: "Computer Science Mentors",
-    icon: csm,
-    iconBg: "#FFF8FC",
-    date: "August 2019 - January 2021",
-    points: [
-      "Tutored small group every week on CS61A topics",
-      "Created cribsheets on various topics for future mentors",
-      "Encorporated different teaching strategies to adapt to different students such as scaffolding, peer learning, and using analogies",
-      "Collaborated and communicated with other mentors with regular interaction and feedback.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
-const projects = [
-  {
-    name: "Tiny Tales",
-    description:
-      "This is an early childhood education app aimed at developing language skills while fostering creativity through storytelling. We use the Google Cloud Vision API to order images (previously imported by the user) based on similar keywords for continuity. Then the child is able to record a story with these 4 images. I was the front-end lead and part of the UI design team.",
-    tags: [
-      {
-        name: "android application",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "google api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tinytales,
-    source_code_link: "/files/TinyTalesReport.pdf",
-  },
-  {
-    name: "GymHaus",
-    description:
-      "This was my first website I made! During the summer, my friend designed Covid-19 t-shirts he wanted to sell to help donate funds for frontline workers. He asked me to design and create this website for him. Sadly, he wasn’t able to continue with this project, so we never launched the full website. Besides the pictures of the shirts, all other images are stock photos.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "web design",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gymhaus,
-    source_code_link: "/files/GymHaus Website/gymhaus.html",
-  },
-  {
-    name: "Scrunchies 4 SMA",
-    description:
-      "Spinal Muscular Atrophy (SMA) is a disease my brother has, and this is a passion project where scrunchies made from scrap fabric will raise funds for SMA cure research. It started as a project for a brand identity and graphic design class where I created stylescapes, logos, and other mockups. The color scheme is bright and sparkly to symbolize happiness and hope, and the logo is created with hand drawn hearts.",
-    tags: [
-      {
-        name: "branding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "graphic design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "adobe illustrator",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: scrunchies4sma,
-    source_code_link: "/files/Scrunchies4SMA.pdf",
-  },
-  {
-    name: "KingPin Donuts Remake",
-    description:
-      "KingPin Donuts is a donut shop near UC Berkeley. They have great donuts; however, their website according to my web deisgn class needed improvement, so that was our assignment. This is my remake. I wanted it to be a simple design and put an emphasis on using mouthwatering pictures since luring customers in would be the goal of a donut website.",
-    tags: [
-      {
-        name: "web design",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: kingpin,
-    source_code_link: "/files/KingPin/index.html",
-  },
-  // {
-  //     name: "Sleepy Cat Books Logo",
-  //     description: "Come Make Your marK Designathon",
-  //     tags: [{
-  //             name: "branding",
-  //             color: "blue-text-gradient",
-  //         },
-  //         {
-  //             name: "graphic design",
-  //             color: "green-text-gradient",
-  //         },
-  //         {
-  //             name: "adobe illustrator",
-  //             color: "pink-text-gradient",
-  //         },
-  //     ],
-  //     image: kingpin,
-  //     source_code_link: "https://github.com/",
-  // },
-];
-
-export { services, technologies, experiences, testimonials, projects };
+    mobile,
+    backend,
+    creator,
+    web,
+    javascript,
+    typescript,
+    html,
+    css,
+    reactjs,
+    redux,
+    tailwind,
+    nodejs,
+    mongodb,
+    git,
+    figma,
+    docker,
+    meta,
+    starbucks,
+    tesla,
+    shopify,
+    carrent,
+    jobit,
+    tripguide,
+    threejs,
+    LIS_logo,
+    UNL_logo,
+    tableau_works,
+    final_journey,
+    c_sharp,
+    vs,
+    dot_net,
+    mysql,
+    MSTR,
+    SNOW,
+    dot_net_core,
+    python, 
+    vs_code,
+    sql_server,
+    excel,
+    tableau,
+    cannibals,
+    tfbs,
+    defaultImg
+  } from "../assets";
+  
+  export const navLinks = [
+    {
+      id: "about",
+      title: "About",
+    },
+    {
+      id: "work",
+      title: "Work",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+  ];
+  
+  const services = [
+    {
+      title: "Data Professional",
+      icon: web,
+    },
+    {
+      title: ".NET C# Developer",
+      icon: mobile,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+  ];
+  
+  const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "C#",
+      icon: c_sharp,
+    },
+    {
+      name: ".NET",
+      icon: dot_net,
+    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    {
+      name: "Tableau",
+      icon: tableau,
+    },
+    // {
+    //   name: "MSTR",
+    //   icon: MSTR,
+    // },
+    {
+      name: "Excel",
+      icon: excel,
+    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Snowflake",
+    //   icon: SNOW,
+    // },
+    // {
+    //   name: "My SQL",
+    //   icon: mysql,
+    // }, 
+    // {
+    //   name: "SQL Server",
+    //   icon: sql_server,
+    // },
+    // {
+    //   name: "Visual Studio",
+    //   icon: vs,
+    // },
+    // {
+    //   name: "Visual Studio Code",
+    //   icon: vs_code,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+  ];
+  
+  const experiences = [
+    {
+      title: "Intern .NET Developer",
+      company_name: "SCP, Lincoln, NE",
+      icon: defaultImg,
+      iconBg: "#E6DEDD",
+      date: "August 2022 - Present",
+      points: [
+        "Design and develop web applications using ASP.NET to improve user experience, resulting in a 70% increase in user engagement.",
+        "Utilize C# and Entity Framework for backend development, enhancing database performance and reducing query execution time by 20%.",
+        "Implement RESTful APIs to enable seamless data communication and integration.",
+        "Resolve complex technical issues and improved application performance through debugging.",
+        "Maintain version control using Git and participating in agile development processes.",
+        "Implement unit and integration testing for controllers and database context to ensure code reliability",
+      ],
+    },
+    {
+      title: "Student Research Worker",
+      company_name: "University of Nebraska-Lincoln (UNL)",
+      icon: UNL_logo,
+      iconBg: "#383E56",
+      date: "August 2022 - April 2023",
+      points: [
+        "Gathered and effectively organized a substantial dataset, resulting in a 30% reduction in analysis time.",
+        "Facilitated a smooth integration process for new team members by providing guidance and fostering a positive team environment, resulting in quick and confident contributions to the team's success.",
+      ],
+    },
+    {
+      title: "Associate Software Engineer",
+      company_name: "LIS Nepal",
+      icon: LIS_logo,
+      iconBg: "#E6DEDD",
+      date: "September 2019 - September 2020",
+      points: [
+        "Leveraged expertise in Python, SQL and Snowflake to execute intricate ETL processes to help drive successful implementation of two substantial big data warehouse projects generating millions in cost savings.",
+        "Developed comprehensive analytical reports in MicroStrategy and Looker utilizing a keen eye for detail and a strategic approach for data-informed business decisions resulting in $5 million revenue growth.",
+        "Proposed the addition of a project manager to the team and the implementation of biweekly scrum meetings, resulting in an impressive 80% increase in on-time project deliverables upon approval.",
+        "Built strong and collaborative relationships with offshore clients, demonstrating a customer-focused mindset and ensuring timely delivery of high-quality work.",
+        "Spearheaded successful deployment of a cutting-edge workflow management system for the company utilizing React JS and leading cross-functional teams to streamline processes and increase operational efficiency by an impressive 50%.",
+      ],
+    },
+    {
+      title: "Intern Software Engineer",
+      company_name: "LIS Nepal",
+      icon: LIS_logo,
+      iconBg: "#383E56",
+      date: "July 2019 - September 2019",
+      points: [
+        "Designed and developed dashboards in MicroStrategy, delivering valuable insights to stakeholders and enabling data-driven decision-making demonstrating proficiency in data visualization and analytics tools.",
+        "Conducted continuous integration and deployment (CI/CD) processes and thorough ad-hoc testing.",
+        "Leveraged proficiency with industry-standard tools such as Git for version control and Jira for issue tracking and project management.",
+        "Maintained ETL python scripts to ensure data accuracy, showcasing strong attention to detail and technical expertise and contributing to smoother operations and optimized performance by efficiently identifying and fixing issues.",
+      ],
+    },
+  ];
+  
+  const testimonials = [
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      name: "Sara Lee",
+      designation: "CFO",
+      company: "Acme Co",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
+    {
+      testimonial:
+        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      name: "Chris Brown",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+    },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Lisa Wang",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
+  ];
+  
+  const projects = [
+    {
+      name: "Tableau Visualizations",
+      description:
+        "Check out some of my Tableau visualizations where I craft some visual stories and dashboards that turn data into meaningful insights. I had a lot of fun exploring the secrets data can hold, hopefully you will experience the same.  ",
+      tags: [
+        {
+          name: "Tableau",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Data_Vizs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Data_analytics",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tableau_works,
+      source_code_link: "https://public.tableau.com/app/profile/shrestha.samyam",
+    },
+    {
+      name: "Missonaries and Cannibal game AI Solver",
+      description:
+        "A machine learning approach to solve the popular classic game missionaries and cannibals.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Machine_learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Optimization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cannibals,
+      source_code_link: "https://github.com/SamyamS/Cannibal-AI-solver",
+    },
+    {
+      name: "Final Journey: a turn based rpg made in pygame",
+      description:
+        "A fun project I worked in to create a turn-based rpg game in pygame.",
+      tags: [
+        {
+          name: "pygame",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "game_dev",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: final_journey,
+      source_code_link: "https://github.com/SamyamS/Final-journey",
+    },
+    {
+      name: "Neural network modeling for transcription factor binding site prediction",
+      description:
+        "Built and compared different neural network model design to predict the transcription factor binding site. Main model inspired by DeepGenBind.",
+      tags: [
+        {
+          name: "neural network",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bioinformatics",
+          color: "green-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tfbs,
+      source_code_link: "https://github.com/SamyamS/TFBS_prediction",
+    },
+  ];
+  
+  export { services, technologies, experiences, testimonials, projects };

@@ -1,64 +1,52 @@
 import { motion } from 'framer-motion';
-import { down } from "../assets";
-
-import { styles } from '../styles'
-import { FlowersCanvas } from './canvas';
+import { styles } from '../styles';
+import { ComputersCanvas } from './canvas'; 
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[80vh] sm:h-screen min-h-[700px] mx-auto">
-      <div className={`${styles.paddingX} inset-0 pt-[120px] max-w-7xl
-      mx-auto flex flex-row items-start gap-5`}>
+    <section className={`relative w-full h-screen mx-auto`}>
+      <div className={`${styles.paddingX} absolute inset-0 top-[70px] max-w-7xl mx-auto flex flex-row 
+      items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-secondary" />
-          <div className="w-1 sm:h-80 h-40 pink-gradient" />
+          {/* The following two divs are for that purple circle and line */}
+          <div className="w-5 h-5 rounded-full bg-[#915eff]"/> 
+          <div className="w-1 sm:h-80 h-40 violet-gradient"/>
         </div>
+
+        {/* For the text beside it  */}
         <div>
-          <h1 className={`${styles.heroHeadText} text-black-100`}>
-            Hi, I'm <span className="text-secondary">Lucy <span className="sm:inline hidden">Lou</span></span>
+          <h1 className={`${styles.heroHeadText} text-white whitespace-nowrap`}>
+            Hi! I'm <span className='text-[#915eff]'>Samyam</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-black-100`}>
-            A software engineer and designer&nbsp;
-            <br className="sm:block hidden"/> 
-            with an emphasis on creativity
+          <p className={`${styles.heroSubText} text-white-100`}>
+            I am a data professional, .NET developer <br className='sm:block hidden' />and software engineer. 
           </p>
         </div>
       </div>
 
-      <div className="relative m:w-[750px] w-full h-[60%] mt-[-70px] mx-auto">
-        <FlowersCanvas />
-      </div>
+      <ComputersCanvas />
 
-      <div className="absolute z-10 sm:bottom-[10px] bottom-[20px] w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[55px] h-[64px] flex justify-center items-start p-0">
-            <motion.div 
+      {/* Div for the small framer motion animation to prompt users that we can scroll */}
+      <div className='absolute xs:bottom-1 bottom-1 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[25px] h-[50px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2'>
+            <motion.dev 
               animate={{
-                y: [0, 12, 0]
+                y: [0, 24, 0],
               }}
-              transition={{
+              transition = {{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: 'loop'
+                repeatType: 'loop',
               }}
-            >
-            <img
-              src={down}
-              alt="see more"
-              className="sm:mt-0 mt-5 sm:w-7 w-5 object-contain"
+              className='w-2 h-2 rounded-full bg-secondary mb-1'
             />
-            <img
-              src={down}
-              alt="see more"
-              className="sm:w-7 w-5 object-contain"
-            />
-            </motion.div>
           </div>
         </a>
+
       </div>
-
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

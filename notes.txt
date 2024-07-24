@@ -1,0 +1,24 @@
+Starting project framework with vite
+npm create vite@latest -- --template react
+
+installing Tailwindcss
+tailwind css
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+Installing react packages
+
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom 
+
+
+--legacy-peer-deps => to install legacy packages, here its react-tilt
+everything here are react packages, there are multiple react packages here. EG. @react-threee/fiber, @react-three/drei, maath, react-tilt, etc.
+
+
+Installing three js package
+npm install --legacy-peer-deps three
+
+
+to deploy to github pages, 
+go here and you need nothing else: https://vitejs.dev/guide/static-deploy.html#github-pages
