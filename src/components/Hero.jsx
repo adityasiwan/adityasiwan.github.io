@@ -16,10 +16,10 @@ const Hero = () => {
         {/* For the text beside it  */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white whitespace-nowrap`}>
-            Hi! I'm <span className='text-[#915eff]'>Samyam</span>
+            Hi! I'm <span className='text-[#915eff]'>Aditya</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100`}>
-            I am a data professional, .NET developer <br className='sm:block hidden' />and software engineer. 
+            I am a software engineer <br className='sm:block hidden' />and golang developer. 
           </p>
         </div>
       </div>

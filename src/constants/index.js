@@ -61,15 +61,15 @@ import {
   
   const services = [
     {
-      title: "Data Professional",
+      title: "Software Engineer",
       icon: web,
     },
     {
-      title: ".NET C# Developer",
-      icon: mobile,
+      title: "Machine Learning Engineer",
+      icon: creator,
     },
     {
-      title: "Backend Developer",
+      title: "GoLang Developer",
       icon: backend,
     },
   ];
@@ -80,12 +80,20 @@ import {
       icon: python,
     },
     {
-      name: "C#",
-      icon: c_sharp,
+      name: "Docker",
+      icon: docker,
     },
     {
-      name: ".NET",
-      icon: dot_net,
+      name: "Git",
+      icon: git,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     // {
     //   name: "HTML 5",
@@ -95,18 +103,18 @@ import {
     //   name: "CSS 3",
     //   icon: css,
     // },
-    {
-      name: "Tableau",
-      icon: tableau,
-    },
+    // {
+    //   name: "Tableau",
+    //   icon: tableau,
+    // },
     // {
     //   name: "MSTR",
     //   icon: MSTR,
     // },
-    {
-      name: "Excel",
-      icon: excel,
-    },
+    // {
+    //   name: "Excel",
+    //   icon: excel,
+    // },
     // {
     //   name: "MongoDB",
     //   icon: mongodb,

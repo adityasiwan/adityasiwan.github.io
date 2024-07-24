@@ -40,9 +40,9 @@ const About = () => {
 
       <motion.p variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      Passionate about leveraging technology to drive innovation and create a positive impact on people's lives, I am a dedicated AI enthusiast with a deep-rooted interest in responsible AI practices. By day, I'm a data professional who thrives on working with data to uncover insights and inform decisions. In addition, I'm an avid .NET C# developer, continually exploring the realm of software development.
-      <br /><br />When I'm not immersed in the world of technology, I channel my creativity as a writer and blogger during my spare time. I find joy in crafting narratives and sharing my thoughts with others. Beyond my professional pursuits, I lead an active lifestyle, engaging in sports and exercise to maintain a healthy balance. I'm also an avid reader of novels and enjoy spending quality time watching movies with family and friends.
-      <br /><br />My passion for technology, data, and programming languages like Python and C# drives me to constantly learn and grow in this ever-evolving landscape. Let's connect and explore the possibilities together!
+      I am a machine learning engineer. I graduated from University of Petroleum and Energy Studies in May 2018 majoring in Computer Science with concentration in Machine Intelligence. I love coding and solving mathematical problems.
+      <br /><br />I work on building Machine Learning Models to support various business objectives and decisions. Further, I am also involved in contributing to open source projects for different communities.
+      <br /><br />To-DO
       </motion.p>
 
       {/* For the title cards in about section */}
